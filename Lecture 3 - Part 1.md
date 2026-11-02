@@ -21,6 +21,18 @@
 - %tid.x: Thread index within the block.
 ### Global thread index along x:
 - Global ID= %r1 X %r2 + %r3
+## Thread
+- Executes its own instruction sequence.
+- Maintains private registers and local execution state.
+## Thread Block
+- Contains multiple threads assigned to one SM.
+- Threads cooperate through shared memory and synchronization.
+## Grid
+- Contains multiple thread blocks executing the same kernel.
+- Blocks can execute concurrently or sequentially across SMs.
+
+
+
 
 
 
