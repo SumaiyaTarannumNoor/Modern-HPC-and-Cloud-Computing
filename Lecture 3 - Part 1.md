@@ -33,7 +33,10 @@
 ## Warp
 - A group of 32 threads scheduled together on NVIDIA GPUs.
 - Follows the SIMT execution model, with support for divergent control flow.
-
+## PTX Compatability Models
+- Standard (9.0): Forward-compatible with newer supported GPU architectures.
+- Architecture-specific (9.0a): Uses specialized instructions without guaranteed forward compatibility.
+- Family-specific (10.0f): Compatible within the same major architecture family, but not guaranteed across major versions.
 
 
 
