@@ -30,6 +30,10 @@
 ## Grid
 - Contains multiple thread blocks executing the same kernel.
 - Blocks can execute concurrently or sequentially across SMs.
+## Warp
+- A group of 32 threads scheduled together on NVIDIA GPUs.
+- Follows the SIMT execution model, with support for divergent control flow.
+
 
 
 
