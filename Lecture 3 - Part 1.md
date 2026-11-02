@@ -6,5 +6,18 @@
 ## SASS
 - Streaming Assembler (SASS) is the lowest-level, human-readable assembly language for programs running on NVIDIA GPUs. Architecture-specific instructions executed by NVIDIA GPUs.
 <img width="1310" height="105" alt="image" src="https://github.com/user-attachments/assets/2ad667c6-85e4-44a3-8e42-a855f889eef9" />
+## PTX Instructions
+### Declare floating-point registers
+- Declares seven virtual 32-bit floating-point registers (%f0–%f6).
+- The compiler maps these virtual registers onto physical GPU registers.
+### Fused Multiply-Add (FMA)
+- Computes %f5 = (%f4 × %f3) + 1.5.
+- fma: Multiplication and addition with one final rounding.
+- rn: Round to nearest, ties to even.
+- f32: Single-precision (32-bit) floating point.
+
+
+
+
 
  
