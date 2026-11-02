@@ -41,6 +41,16 @@
 ### A CUDA thread is the smallest programmable execution unit in the CUDA thread hierarchy.
 ### Threads are organized into warps of 32 threads, which typically execute the same instruction together using the SIMT (Single Instruction, Multiple Threads) model.
 
+## Warp Execution in CUDA (SMIT Model)
+- Warp: A group of 32 threads that execute instructions under the SIMT model.
+- Lockstep Model: Threads in a warp conceptually progress together, although actual hardware scheduling may differ.
+- Independent Thread Execution: Modern GPUs can schedule threads independently; programmers should not rely on implicit lockstep synchronization.
+- Warp Divergence: Different branch paths within a warp may reduce execution efficiency.
+- Memory Efficiency: Warp organization influences global memory coalescing and shared memory bank conflicts.
+- Warp-Level Optimization: Advanced techniques use warp specialization to reduce divergence and improve hardware utilization.
+
+
+
 
 
 
