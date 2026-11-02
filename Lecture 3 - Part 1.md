@@ -5,7 +5,6 @@
  Portable Virtual Instructions
 ## SASS
 - Streaming Assembler (SASS) is the lowest-level, human-readable assembly language for programs running on NVIDIA GPUs. Architecture-specific instructions executed by NVIDIA GPUs.
-<img width="1310" height="105" alt="image" src="https://github.com/user-attachments/assets/2ad667c6-85e4-44a3-8e42-a855f889eef9" />
 ## PTX Instructions
 ### Declare floating-point registers
 - Declares seven virtual 32-bit floating-point registers (%f0–%f6).
