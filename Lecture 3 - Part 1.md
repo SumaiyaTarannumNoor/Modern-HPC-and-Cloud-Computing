@@ -15,6 +15,12 @@
 - fma: Multiplication and addition with one final rounding.
 - rn: Round to nearest, ties to even.
 - f32: Single-precision (32-bit) floating point.
+### Access thread and block identifiers
+- %ctaid.x: Block index along the x-axis.
+- %ntid.x: Number of threads per block along the x-axis.
+- %tid.x: Thread index within the block.
+
+
 
 
 
