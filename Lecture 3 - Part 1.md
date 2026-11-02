@@ -18,6 +18,10 @@
 - %ctaid.x: Block index along the x-axis.
 - %ntid.x: Number of threads per block along the x-axis.
 - %tid.x: Thread index within the block.
+### Global thread index along x:
+- Global ID= %r1 X %r2 + %r3
+
+
 
 
 
