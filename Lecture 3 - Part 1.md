@@ -3,6 +3,7 @@
 ## PTX
 - PTX (Parallel Thread eXecution) is NVIDIA's intermediate representation (IR) for GPU programs.
  Portable Virtual Instructions
+- PTX defines a hierarchy of threads, thread blocks, and grids, corresponding to CUDA's execution model.
 ## SASS
 - Streaming Assembler (SASS) is the lowest-level, human-readable assembly language for programs running on NVIDIA GPUs. Architecture-specific instructions executed by NVIDIA GPUs.
 ## PTX Instructions
