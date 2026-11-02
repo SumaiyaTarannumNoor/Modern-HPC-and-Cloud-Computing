@@ -38,6 +38,10 @@
 - Architecture-specific (9.0a): Uses specialized instructions without guaranteed forward compatibility.
 - Family-specific (10.0f): Compatible within the same major architecture family, but not guaranteed across major versions.
 
+### A CUDA thread is the smallest programmable execution unit in the CUDA thread hierarchy.
+### Threads are organized into warps of 32 threads, which typically execute the same instruction together using the SIMT (Single Instruction, Multiple Threads) model.
+
+
 
 
 
